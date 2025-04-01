@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<AccountCodeMappings>
+		<AccountCode Id="RIWC">
+			<AccountName>WirelessMonthlyServices</AccountName>
+		</AccountCode>
+
+		<AccountCode Id ="RIWV">
+			<AccountName>VelocityCellularFixed</AccountName>
+		</AccountCode>
+
+		<AccountCode Id ="RIF">
+			<AccountName>FiberServices</AccountName>
+		</AccountCode>
+
+		<AccountCode Id="RIP">
+			<AccountName>ProtectionPlan</AccountName>
+		</AccountCode>
+
+		<AccountCode Id = "RIC">
+			<AccountName>CALEA</AccountName>
+		</AccountCode>
+
+		<AccountCode Id="RAV">
+			<AccountName>VoIP</AccountName>
+		</AccountCode>
+
+		<AccountCode Id="RAT">
+			<AccountName>Television</AccountName>
+		</AccountCode>
+
+		<AccountCode Id="RAW">
+
+			<AccountName>Web&amp;Email</AccountName>
+		</AccountCode>
+
+		<AccountCode Id="RAM">
+			<AccountName>ManagedAccess</AccountName>
+		</AccountCode>
+
+		<AccountCode Id = "RLD">
+			<AccountName>Dial-Up</AccountName>
+		</AccountCode>
+
+		<AccountCode Id = "RLS">
+			<AccountName>DSL</AccountName>
+		</AccountCode>
+
+		<AccountCode Id ="RN">
+			<AccountName>InstallationAndRepair</AccountName>
+		</AccountCode>
+
+		<AccountCode Id ="RH">
+			<AccountName>HardwareSales</AccountName>
+		</AccountCode>
+
+		<AccountCode Id="RO">
+			<AccountName>OtherIncome</AccountName>
+		</AccountCode>
+
+		<AccountCode Id="BIWC">
+			<AccountName>WirelessMonthlyServices</AccountName>
+		</AccountCode>
+
+		<AccountCode Id ="BIWV">
+			<AccountName>VelocityCellularFixed</AccountName>
+		</AccountCode>
+
+		<AccountCode Id ="BIF">
+			<AccountName>FiberServices</AccountName>
+		</AccountCode>
+
+		<AccountCode Id = "BIM">
+			<AccountName>Multi-Tenant</AccountName>
+		</AccountCode>
+
+		<AccountCode Id="BIP">
+			<AccountName>ProtectionPlan</AccountName>
+		</AccountCode>
+
+		<AccountCode Id = "BIC">
+			<AccountName>CALEA</AccountName>
+		</AccountCode>
+
+		<AccountCode Id="BAV">
+			<AccountName>VoIP</AccountName>
+		</AccountCode>
+
+		<AccountCode Id="BAT">
+			<AccountName>Television</AccountName>
+		</AccountCode>
+
+		<AccountCode Id="BAW">
+
+			<AccountName>Web&amp;Email</AccountName>
+		</AccountCode>
+
+		<AccountCode Id="BAM">
+			<AccountName>ManagedAccess</AccountName>
+		</AccountCode>
+
+		<AccountCode Id = "BLD">
+			<AccountName>Dial-Up</AccountName>
+		</AccountCode>
+
+		<AccountCode Id = "BLS">
+			<AccountName>DSL</AccountName>
+		</AccountCode>
+
+		<AccountCode Id = "BLC">
+			<AccountName>Co-Lo</AccountName>
+		</AccountCode>
+
+		<AccountCode Id ="BN">
+			<AccountName>InstallationAndRepair</AccountName>
+		</AccountCode>
+
+		<AccountCode Id ="BH">
+			<AccountName>HardwareSales</AccountName>
+		</AccountCode>
+
+		<AccountCode Id="BO">
+			<AccountName>OtherIncome</AccountName>
+		</AccountCode>
+
+		<AccountCode Id = "ST">
+			<AccountName>SalesTax</AccountName>
+		</AccountCode>
+
+		<AccountCode Id = "C">
+			<AccountName>ContractedSpecialProjects</AccountName>
+		</AccountCode>
+	</AccountCodeMappings>

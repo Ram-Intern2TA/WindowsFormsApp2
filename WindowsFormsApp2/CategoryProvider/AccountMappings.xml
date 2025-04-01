@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AccountMappings>
+	<Account Id="WirelessMonthlyServices">
+		<Category>WirelessService</Category>
+	</Account>
+
+	<Account Id ="VelocityCellularFixed">
+		<Category>CellularFixedWireless</Category>
+	</Account>
+
+	<Account Id ="FiberServices">
+		<Category>Fiber</Category>
+	</Account>
+
+	<Account Id="ProtectionPlan">
+		<Category>ProtectionPlan</Category>
+	</Account>
+
+	<Account Id = "CALEA">
+		<Category>CALEAComplianceFee</Category>
+	</Account>
+
+	<Account Id="VoIP">
+		<Category>VoIP</Category>
+	</Account>
+
+	<Account Id="Television">
+		<Category>Television</Category>
+	</Account>
+
+	<Account Id="Web&amp;Email">
+		<Category>Hosting</Category>
+		<Category>DomainReg</Category>
+	</Account>
+
+	<Account Id="ManagedAccess">
+		<Category>AccessManagementServices</Category>
+	</Account>
+
+	<Account Id = "Dial-Up">
+		<Category>Dial-Up</Category>
+		<Category>DU-Accel</Category>
+	</Account>
+
+	<Account Id = "DSL">
+		<Category>DSL-Resale</Category>
+		<Category>CLECDSL</Category>
+	</Account>
+
+	<Account Id ="InstallationAndRepair">
+		<Category>WirelessInstallation</Category>
+		<Category>Repair</Category>
+	</Account>
+
+	<Account Id ="HardwareSales">
+		<Category>Hardware</Category>
+	</Account>
+
+	<Account Id="OtherIncome">
+		<Category>ISDN</Category>
+		<Category>DIA-Resale</Category>
+		<Category>Filters</Category>
+		<Category>StaticIP</Category>
+		<Category>WebDesign</Category>
+		<Category>Surcharge</Category>
+		<Category>UncategorizedCredit-Refund</Category>
+		<Category>UncategorizedService</Category>
+		<Category>FinanceCharge-LateFee</Category>
+	</Account>
+
+	<Account Id = "Multi-Tenant">
+		<Category>Multi-Tenant</Category>
+	</Account>
+
+	<Account Id = "Co-Lo">
+		<Category>Co-Lo</Category>
+	</Account>
+
+	<Account Id = "SalesTax">
+		<Category>SalesTax</Category>
+	</Account>
+
+	<Account Id = "ContractedSpecialProjects">
+		<Category>ContractedSpecialProjects</Category>
+	</Account>
+
+</AccountMappings>

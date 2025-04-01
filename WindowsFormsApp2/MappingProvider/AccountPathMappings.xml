@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mappings>
+	<Account>
+		<AccountCode Id="RIWC">
+			<Path Id="Earned">Residental Revenue:Internet Services:Wireless Revenue:Wireless Monthly Services</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Residential Revenue:Internet Services:Wireless Services:Wireless Monthly Services</Path>
+		</AccountCode>
+
+		<AccountCode Id ="RIWV">
+			<Path Id="Earned">Residental Revenue:Internet Services:Wireless Revenue:Velocity cellular fixed</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Residential Revenue:Internet Services:Wireless Services:Velocity Cellular Fixed</Path>
+		</AccountCode>
+
+		<AccountCode Id ="RIF">
+			<Path Id="Earned">Residental Revenue:Internet Services:Fiber Services</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Residential Revenue:Internet Services:Fiber Services</Path>
+		</AccountCode>
+
+		<AccountCode Id="RIP">
+			<Path Id="Earned">Residental Revenue:Internet Services:Protection Plan</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Residential Revenue:Internet Services:Protection Plan</Path>
+		</AccountCode>
+
+		<AccountCode Id = "RIC">
+			<Path Id="Earned">Residental Revenue:Internet Services:CALEA</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Residential Revenue:Internet Services:CALEA</Path>
+		</AccountCode>
+
+		<AccountCode Id="RAV">
+			<Path Id="Earned">Residental Revenue:Application Svcs:VoIP</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Residential Revenue:Application Services:VOIP</Path>
+		</AccountCode>
+
+		<AccountCode Id="RAT">
+			<Path Id="Earned">Residental Revenue:Application Svcs:Television</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Residential Revenue:Application Services:Television</Path>
+		</AccountCode>
+
+		<AccountCode Id="RAW">
+			<Path Id="Earned">Residental Revenue:Application Svcs:Web &amp; Email</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Residential Revenue:Application Services:Web &amp; Email</Path>
+		</AccountCode>
+
+		<AccountCode Id="RAM">
+			<Path Id="Earned">Residental Revenue:Application Svcs:Managed Access</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Residential Revenue:Application Services:Managed Access</Path>
+		</AccountCode>
+
+		<AccountCode Id = "RLD">
+			<Path Id="Earned">Residental Revenue:Legacy Services:Dial-Up Revenue</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Residential Revenue:Legacy Services:Dial-up</Path>
+		</AccountCode>
+
+		<AccountCode Id = "RLS">
+			<Path Id="Earned">Residental Revenue:Legacy Services:DSL Revenue</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Residential Revenue:Legacy Services:DSL</Path>
+		</AccountCode>
+
+		<AccountCode Id ="RN">
+			<Path Id="Earned">Residental Revenue:Wireless Installation:Repair</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Residential Revenue:Installation and Repair</Path>
+		</AccountCode>
+
+		<AccountCode Id ="RH">
+			<Path Id="Earned">Residental Revenue:Hardware Sales</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Residential Revenue:Hardware Sales</Path>
+		</AccountCode>
+
+		<AccountCode Id="RO">
+			<Path Id="Earned">Residental Revenue:Other  Income</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Residential Revenue:Other Income</Path>
+		</AccountCode>
+
+		<AccountCode Id="BIWC">
+			<Path Id="Earned">Business Revenue:Internet Services:Wireless Service:Wireless Monthly service</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Business Revenue:Internet Services:Wireless Services:Cal.net</Path>
+		</AccountCode>
+
+		<AccountCode Id ="BIWV">
+			<Path Id="Earned">Business Revenue:Internet Services:Wireless Service:Velocity Cellular Fixed Wireles</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Business Revenue:Internet Services:Wireless Services:Velocity</Path>
+		</AccountCode>
+
+		<AccountCode Id ="BIF">
+			<Path Id="Earned">Business Revenue:Internet Services:Fiber Service</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Business Revenue:Internet Services:Fiber Services</Path>
+		</AccountCode>
+
+		<AccountCode Id = "BIM">
+			<Path Id="Earned">Business Revenue:Internet Services:Multi Tenant</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Business Revenue:Internet Services:Multi-Tenant</Path>
+		</AccountCode>
+
+		<AccountCode Id="BIP">
+			<Path Id="Earned">Business Revenue:Internet Services:Protection Plan</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Business Revenue:Internet Services:Protection Plan</Path>
+		</AccountCode>
+
+		<AccountCode Id = "BIC">
+			<Path Id="Earned">Business Revenue:Internet Services:CALEA</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Business Revenue:Internet Services:CALEA</Path>
+		</AccountCode>
+
+		<AccountCode Id="BAV">
+			<Path Id="Earned">Business Revenue:Application Services:VOIP</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Business Revenue:Application Services:VOIP</Path>
+		</AccountCode>
+
+		<AccountCode Id="BAT">
+			<Path Id="Earned">Business Revenue:Application Services:Television</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Business Revenue:Application Services:Television</Path>
+		</AccountCode>
+
+		<AccountCode Id="BAW">
+			<Path Id="Earned">Business Revenue:Application Services:Web &amp; Email</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Business Revenue:Application Services:Web &amp; Email</Path>
+		</AccountCode>
+
+		<AccountCode Id="BAM">
+			<Path Id="Earned">Business Revenue:Application Services:Managed Access</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Business Revenue:Application Services:Managed Access</Path>
+		</AccountCode>
+
+		<AccountCode Id = "BLD">
+			<Path Id="Earned">Business Revenue:Legacy Services:Dial-Up</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Business Revenue:Legacy Services:Dial-Up</Path>
+		</AccountCode>
+
+		<AccountCode Id = "BLS">
+			<Path Id="Earned">Business Revenue:Legacy Services:DSL</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Business Revenue:Legacy Services:DSL</Path>
+		</AccountCode>
+
+		<AccountCode Id = "BLC">
+			<Path Id="Earned">Business Revenue:Legacy Services:C0-Location</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Business Revenue:Legacy Services:Co-Location</Path>
+		</AccountCode>
+
+		<AccountCode Id ="BN">
+			<Path Id="Earned">Business Revenue:Installation &amp; Repair</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Business Revenue:Installation and Repair</Path>
+		</AccountCode>
+
+		<AccountCode Id ="BH">
+			<Path Id="Earned">Business Revenue:Hardware Sales</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Business Revenue:Hardware Sales</Path>
+		</AccountCode>
+
+		<AccountCode Id="BO">
+			<Path Id="Earned">Business Revenue:Other Income</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Business Revenue:Other Income</Path>
+		</AccountCode>
+
+		<AccountCode Id = "C">
+			<Path Id="Earned">Contracted Special Projects</Path>
+			<Path Id="Deferred">Deferred Revenue - Platt:Contracted Special Projects</Path>
+		</AccountCode>
+	</Account>
+	<AssetAndLiability>
+		<AccountCode Id="ST">
+			<Path>Sales Tax Payable:Sales Tax - Platt</Path>
+		</AccountCode>
+		<AccountCode Id="AR">
+			<Path>Accounts Receivable:Platt  A/R account</Path>
+		</AccountCode>
+		<AccountCode Id="Check">
+			<Path>First Northern Bank -1669 main:FNB Platt Check Deposits</Path>
+		</AccountCode>
+		<AccountCode Id="Customer">
+			<Path>Customer Credits - Platt</Path>
+		</AccountCode>
+		<AccountCode Id="CC">
+			<Path>First Northern Bank -1669 main:FNB Platt  CC deposits</Path>
+		</AccountCode>
+		<AccountCode Id="Cash">
+			<Path>BMO Bank - 4318:Platt Cash deposit</Path>
+		</AccountCode>
+		<AccountCode Id="ACH">
+			<Path>First Northern Bank -1669 main:FNB Platt ACH deposits</Path>
+		</AccountCode>
+	</AssetAndLiability>
+</Mappings>
