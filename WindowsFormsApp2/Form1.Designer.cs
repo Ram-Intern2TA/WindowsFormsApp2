@@ -35,14 +35,14 @@ namespace WindowsFormsApp2
             this.panel2 = new System.Windows.Forms.Panel();
             this.spAddItems = new System.Windows.Forms.Button();
             this.spAddCategory = new System.Windows.Forms.Button();
-            this.addItemButton = new System.Windows.Forms.Button();
+            this.addCategoryButton = new System.Windows.Forms.Button();
             this.AddCategoryLabel = new System.Windows.Forms.Label();
             this.newCategoryTextBox = new System.Windows.Forms.TextBox();
             this.ItemNameLabel = new System.Windows.Forms.Label();
             this.newItemTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.qbMapping_comboBox = new System.Windows.Forms.ComboBox();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.AddNewAccount = new System.Windows.Forms.LinkLabel();
             this.QbnewAccounttxt = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.ResidentialCheckbox = new System.Windows.Forms.CheckBox();
@@ -58,8 +58,14 @@ namespace WindowsFormsApp2
             this.BusinessDeferredPath = new System.Windows.Forms.TextBox();
             this.BusinessEarnedPath = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.OtherAccountPath = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -113,16 +119,16 @@ namespace WindowsFormsApp2
             this.spAddCategory.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.spAddCategory.UseVisualStyleBackColor = false;
             // 
-            // addItemButton
+            // addCategoryButton
             // 
-            this.addItemButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.addItemButton.Location = new System.Drawing.Point(191, 562);
-            this.addItemButton.Name = "addItemButton";
-            this.addItemButton.Size = new System.Drawing.Size(90, 30);
-            this.addItemButton.TabIndex = 17;
-            this.addItemButton.Text = "AddItems";
-            this.addItemButton.UseVisualStyleBackColor = true;
-            this.addItemButton.Click += new System.EventHandler(this.addItemButton_Click);
+            this.addCategoryButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.addCategoryButton.Location = new System.Drawing.Point(191, 562);
+            this.addCategoryButton.Name = "addCategoryButton";
+            this.addCategoryButton.Size = new System.Drawing.Size(90, 30);
+            this.addCategoryButton.TabIndex = 17;
+            this.addCategoryButton.Text = "AddCategory and Item";
+            this.addCategoryButton.UseVisualStyleBackColor = true;
+            this.addCategoryButton.Click += new System.EventHandler(this.addCategoryButton_Click);
             // 
             // AddCategoryLabel
             // 
@@ -140,8 +146,8 @@ namespace WindowsFormsApp2
             this.newCategoryTextBox.Location = new System.Drawing.Point(378, 52);
             this.newCategoryTextBox.Name = "newCategoryTextBox";
             this.newCategoryTextBox.Size = new System.Drawing.Size(121, 20);
-            this.newCategoryTextBox.TabIndex = 15;
-            this.newCategoryTextBox.Leave += new System.EventHandler(this.newCategoryTextBox_Leave);
+            this.newCategoryTextBox.TabIndex = 2;
+            this.newCategoryTextBox.TextChanged += new System.EventHandler(this.newCategoryTextBox_TextChanged);
             // 
             // ItemNameLabel
             // 
@@ -159,8 +165,8 @@ namespace WindowsFormsApp2
             this.newItemTextBox.Location = new System.Drawing.Point(378, 101);
             this.newItemTextBox.Name = "newItemTextBox";
             this.newItemTextBox.Size = new System.Drawing.Size(121, 20);
-            this.newItemTextBox.TabIndex = 13;
-            this.newItemTextBox.Leave += new System.EventHandler(this.newItemTextBox_Leave);
+            this.newItemTextBox.TabIndex = 3;
+            this.newItemTextBox.TextChanged += new System.EventHandler(this.newItemTextBox_TextChanged);
             // 
             // label1
             // 
@@ -171,7 +177,6 @@ namespace WindowsFormsApp2
             this.label1.Size = new System.Drawing.Size(99, 13);
             this.label1.TabIndex = 18;
             this.label1.Text = "QB Account Name:";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // qbMapping_comboBox
             // 
@@ -179,25 +184,28 @@ namespace WindowsFormsApp2
             this.qbMapping_comboBox.Location = new System.Drawing.Point(378, 147);
             this.qbMapping_comboBox.Name = "qbMapping_comboBox";
             this.qbMapping_comboBox.Size = new System.Drawing.Size(121, 21);
-            this.qbMapping_comboBox.TabIndex = 19;
+            this.qbMapping_comboBox.TabIndex = 4;
+            this.qbMapping_comboBox.SelectedValueChanged += new System.EventHandler(this.qbMapping_comboBox_SelectedValueChanged);
+            this.qbMapping_comboBox.TextChanged += new System.EventHandler(this.qbMapping_comboBox_TextChanged);
             // 
-            // linkLabel2
+            // AddNewAccount
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(516, 155);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(54, 13);
-            this.linkLabel2.TabIndex = 21;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Add New ";
+            this.AddNewAccount.AutoSize = true;
+            this.AddNewAccount.Location = new System.Drawing.Point(516, 155);
+            this.AddNewAccount.Name = "AddNewAccount";
+            this.AddNewAccount.Size = new System.Drawing.Size(54, 13);
+            this.AddNewAccount.TabIndex = 21;
+            this.AddNewAccount.TabStop = true;
+            this.AddNewAccount.Text = "Add New ";
+            this.AddNewAccount.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.AddNewAccount_LinkClicked);
             // 
             // QbnewAccounttxt
             // 
-            this.QbnewAccounttxt.Location = new System.Drawing.Point(594, 155);
+            this.QbnewAccounttxt.Location = new System.Drawing.Point(582, 148);
             this.QbnewAccounttxt.Name = "QbnewAccounttxt";
             this.QbnewAccounttxt.Size = new System.Drawing.Size(156, 20);
-            this.QbnewAccounttxt.TabIndex = 22;
-            this.QbnewAccounttxt.Leave += new System.EventHandler(this.QbnewAccounttxt_Leave);
+            this.QbnewAccounttxt.TabIndex = 5;
+            this.QbnewAccounttxt.TextChanged += new System.EventHandler(this.QbnewAccounttxt_TextChanged);
             // 
             // label2
             // 
@@ -216,7 +224,7 @@ namespace WindowsFormsApp2
             this.ResidentialCheckbox.Location = new System.Drawing.Point(328, 202);
             this.ResidentialCheckbox.Name = "ResidentialCheckbox";
             this.ResidentialCheckbox.Size = new System.Drawing.Size(125, 17);
-            this.ResidentialCheckbox.TabIndex = 24;
+            this.ResidentialCheckbox.TabIndex = 6;
             this.ResidentialCheckbox.Text = "Residential Revenue";
             this.ResidentialCheckbox.UseVisualStyleBackColor = true;
             // 
@@ -227,7 +235,7 @@ namespace WindowsFormsApp2
             this.BusinessCheckbox.Location = new System.Drawing.Point(459, 202);
             this.BusinessCheckbox.Name = "BusinessCheckbox";
             this.BusinessCheckbox.Size = new System.Drawing.Size(115, 17);
-            this.BusinessCheckbox.TabIndex = 25;
+            this.BusinessCheckbox.TabIndex = 7;
             this.BusinessCheckbox.Text = "Business Revenue";
             this.BusinessCheckbox.UseVisualStyleBackColor = true;
             // 
@@ -237,9 +245,9 @@ namespace WindowsFormsApp2
             this.OtherCheckBox.ForeColor = System.Drawing.Color.Black;
             this.OtherCheckBox.Location = new System.Drawing.Point(582, 203);
             this.OtherCheckBox.Name = "OtherCheckBox";
-            this.OtherCheckBox.Size = new System.Drawing.Size(122, 17);
-            this.OtherCheckBox.TabIndex = 26;
-            this.OtherCheckBox.Text = "Other Account Type";
+            this.OtherCheckBox.Size = new System.Drawing.Size(48, 17);
+            this.OtherCheckBox.TabIndex = 8;
+            this.OtherCheckBox.Text = "Both";
             this.OtherCheckBox.UseVisualStyleBackColor = true;
             // 
             // label3
@@ -257,8 +265,8 @@ namespace WindowsFormsApp2
             this.QbAccountCodetxt.Location = new System.Drawing.Point(328, 242);
             this.QbAccountCodetxt.Name = "QbAccountCodetxt";
             this.QbAccountCodetxt.Size = new System.Drawing.Size(100, 20);
-            this.QbAccountCodetxt.TabIndex = 28;
-            this.QbAccountCodetxt.Leave += new System.EventHandler(this.QbAccountCodetxt_Leave);
+            this.QbAccountCodetxt.TabIndex = 9;
+            this.QbAccountCodetxt.TextChanged += new System.EventHandler(this.QbAccountCodetxt_TextChanged);
             // 
             // label4
             // 
@@ -275,16 +283,16 @@ namespace WindowsFormsApp2
             this.ResidentialEarnedPath.Location = new System.Drawing.Point(391, 287);
             this.ResidentialEarnedPath.Name = "ResidentialEarnedPath";
             this.ResidentialEarnedPath.Size = new System.Drawing.Size(462, 20);
-            this.ResidentialEarnedPath.TabIndex = 30;
-            this.ResidentialEarnedPath.Leave += new System.EventHandler(this.ResidentialEarnedPath_Leave);
+            this.ResidentialEarnedPath.TabIndex = 10;
+            this.ResidentialEarnedPath.TextChanged += new System.EventHandler(this.ResidentialEarnedPath_TextChanged);
             // 
             // ResidentialDeferredPath
             // 
             this.ResidentialDeferredPath.Location = new System.Drawing.Point(391, 328);
             this.ResidentialDeferredPath.Name = "ResidentialDeferredPath";
             this.ResidentialDeferredPath.Size = new System.Drawing.Size(462, 20);
-            this.ResidentialDeferredPath.TabIndex = 31;
-            this.ResidentialDeferredPath.Leave += new System.EventHandler(this.ResidentialDeferredPath_Leave);
+            this.ResidentialDeferredPath.TabIndex = 11;
+            this.ResidentialDeferredPath.TextChanged += new System.EventHandler(this.ResidentialDeferredPath_TextChanged);
             // 
             // label5
             // 
@@ -312,7 +320,7 @@ namespace WindowsFormsApp2
             this.BusinessDeferredPath.Name = "BusinessDeferredPath";
             this.BusinessDeferredPath.Size = new System.Drawing.Size(462, 20);
             this.BusinessDeferredPath.TabIndex = 35;
-            this.BusinessDeferredPath.Leave += new System.EventHandler(this.BusinessDeferredPath_Leave);
+            this.BusinessDeferredPath.TextChanged += new System.EventHandler(this.BusinessDeferredPath_TextChanged);
             // 
             // BusinessEarnedPath
             // 
@@ -320,7 +328,7 @@ namespace WindowsFormsApp2
             this.BusinessEarnedPath.Name = "BusinessEarnedPath";
             this.BusinessEarnedPath.Size = new System.Drawing.Size(462, 20);
             this.BusinessEarnedPath.TabIndex = 34;
-            this.BusinessEarnedPath.Leave += new System.EventHandler(this.BusinessEarnedPath_Leave);
+            this.BusinessEarnedPath.TextChanged += new System.EventHandler(this.BusinessEarnedPath_TextChanged);
             // 
             // label7
             // 
@@ -332,23 +340,94 @@ namespace WindowsFormsApp2
             this.label7.TabIndex = 33;
             this.label7.Text = "Business Earned Revenue Path :";
             // 
-            // OtherAccountPath
+            // label8
             // 
-            this.OtherAccountPath.Location = new System.Drawing.Point(391, 457);
-            this.OtherAccountPath.Name = "OtherAccountPath";
-            this.OtherAccountPath.Size = new System.Drawing.Size(462, 20);
-            this.OtherAccountPath.TabIndex = 38;
-            this.OtherAccountPath.Leave += new System.EventHandler(this.OtherAccountPath_Leave);
+            this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.Color.Lime;
+            this.label8.Location = new System.Drawing.Point(375, 75);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(35, 13);
+            this.label8.TabIndex = 37;
+            this.label8.Text = "label8";
+            this.label8.Visible = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.Color.Lime;
+            this.label9.Location = new System.Drawing.Point(375, 124);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(35, 13);
+            this.label9.TabIndex = 38;
+            this.label9.Text = "label9";
+            this.label9.Visible = false;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(211, 460);
+            this.label10.ForeColor = System.Drawing.Color.Lime;
+            this.label10.Location = new System.Drawing.Point(591, 178);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(129, 13);
-            this.label10.TabIndex = 37;
-            this.label10.Text = "Other Account Debit Path";
+            this.label10.Size = new System.Drawing.Size(41, 13);
+            this.label10.TabIndex = 39;
+            this.label10.Text = "label10";
+            this.label10.Visible = false;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.Color.Lime;
+            this.label11.Location = new System.Drawing.Point(325, 265);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(41, 13);
+            this.label11.TabIndex = 40;
+            this.label11.Text = "label11";
+            this.label11.Visible = false;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.Color.Lime;
+            this.label12.Location = new System.Drawing.Point(388, 312);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(41, 13);
+            this.label12.TabIndex = 41;
+            this.label12.Text = "label12";
+            this.label12.Visible = false;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Cursor = System.Windows.Forms.Cursors.NoMoveVert;
+            this.label13.ForeColor = System.Drawing.Color.Lime;
+            this.label13.Location = new System.Drawing.Point(388, 351);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(41, 13);
+            this.label13.TabIndex = 42;
+            this.label13.Text = "label13";
+            this.label13.Visible = false;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.Color.Lime;
+            this.label14.Location = new System.Drawing.Point(388, 389);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(41, 13);
+            this.label14.TabIndex = 43;
+            this.label14.Text = "label14";
+            this.label14.Visible = false;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.ForeColor = System.Drawing.Color.Lime;
+            this.label15.Location = new System.Drawing.Point(388, 428);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(41, 13);
+            this.label15.TabIndex = 44;
+            this.label15.Text = "label15";
+            this.label15.Visible = false;
             // 
             // Form1
             // 
@@ -356,8 +435,14 @@ namespace WindowsFormsApp2
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(917, 614);
-            this.Controls.Add(this.OtherAccountPath);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.BusinessDeferredPath);
             this.Controls.Add(this.BusinessEarnedPath);
@@ -373,16 +458,16 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.ResidentialCheckbox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.QbnewAccounttxt);
-            this.Controls.Add(this.linkLabel2);
+            this.Controls.Add(this.AddNewAccount);
             this.Controls.Add(this.qbMapping_comboBox);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.addItemButton);
+            this.Controls.Add(this.addCategoryButton);
             this.Controls.Add(this.AddCategoryLabel);
             this.Controls.Add(this.newCategoryTextBox);
             this.Controls.Add(this.ItemNameLabel);
             this.Controls.Add(this.newItemTextBox);
             this.Controls.Add(this.panel1);
-            this.ForeColor = System.Drawing.Color.DarkOrange;
+            this.ForeColor = System.Drawing.SystemColors.Menu;
             this.Name = "Form1";
             this.Text = "Form1";
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
@@ -400,14 +485,14 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Button spAddCategory;
         private System.Windows.Forms.Button spAddItems;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button addItemButton;
+        private System.Windows.Forms.Button addCategoryButton;
         private System.Windows.Forms.Label AddCategoryLabel;
         private System.Windows.Forms.TextBox newCategoryTextBox;
         private System.Windows.Forms.Label ItemNameLabel;
         private System.Windows.Forms.TextBox newItemTextBox;
         private Label label1;
         private ComboBox qbMapping_comboBox;
-        private LinkLabel linkLabel2;
+        private LinkLabel AddNewAccount;
         private TextBox QbnewAccounttxt;
         private Label label2;
         private CheckBox ResidentialCheckbox;
@@ -423,8 +508,14 @@ namespace WindowsFormsApp2
         private TextBox BusinessDeferredPath;
         private TextBox BusinessEarnedPath;
         private Label label7;
-        private TextBox OtherAccountPath;
+        private Label label8;
+        private Label label9;
         private Label label10;
+        private Label label11;
+        private Label label12;
+        private Label label13;
+        private Label label14;
+        private Label label15;
     }
 }
 
